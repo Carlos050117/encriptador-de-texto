@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a class="header__logo"></a>
+            <img src="./assets/logo.png">
+    </header>
+    <main>
+        <div class="container">
+            <div class="encriptar">
+                <textarea name="texto" 
+                class="texto" 
+                id="texto" 
+                cols="30" 
+                rows="10" 
+                placeholder="Ingresa el texto aquí">
+            </textarea>
+
+            
+            <div class="terminos">
+                <p>Sólo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="botones">
+                <input class="button__encriptar" type="button" onclick="encriptar()" value="Encriptar"></input>
+                <input class="button__desencriptar" type="button" onclick="desencriptar()" value="Desencriptar"></input>
+            </div>
+            
+        </div>
+
+        <div class="encriptado">
+            <img src="./assets/Muñeco.png" alt="" id="lupa">
+            <div class="mensaje-encriptado" id="mensaje-encriptado">
+                <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <textarea class="mensaje" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Carlos Mendoza</p>
+    </footer>
+</body>
+</html>
