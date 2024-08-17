@@ -35,9 +35,9 @@
 .texto{
     position: absolute;
     width: 42%;
-    height: 60%;
+    height: 50%;
     left: 12%;
-    top: 15%;
+    top: 10%;
     border: none;
     font-family: var(--font-text);
     font-style: normal;
@@ -66,7 +66,7 @@
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 80%;
+    top: 65%;
 }
 
 .terminos p{
@@ -90,7 +90,7 @@
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 82%;
+    top: 68%;
     gap: 24px;
 }
 
@@ -140,7 +140,7 @@
     justify-content: center;
     position: absolute;
     width: 30%;
-    height: 95%;
+    height: 85%;
     left: 60%;
     top: 0%;
     background-color: #ffffff;
@@ -242,14 +242,15 @@
     }
     .encriptado{
         width: 80%;
-        height: 15%;
+        height: 10%;
         left: 10%;
         top: 80%;
     }
     .mensaje-encriptado{
         width: 100%;
-        top: 5%;
-        text-align: center;
+        top: 32px;
+        bottom: 32px;
+        vertical-align: middle; 
     }
     .encriptado img{
         top: 0;
